@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ezekiel Job Search Dashboard — Verified + Remote</title>
+<style>
+:root{--bg:#f5f7fa;--panel:#fff;--text:#18212b;--muted:#687485;--line:#dde3ea;--navy:#21354e;--green:#24844b;--blue:#5274a6;--gold:#b47c1c;--remote:#e7f0ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+main{max-width:1660px;margin:auto;padding:18px}header{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap}
+h1{margin:0;font-size:28px}.muted{color:var(--muted)}.small{font-size:12px}
+.marketbar{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 10px;font-size:11px;font-weight:800}.chip.local{background:#e7f7ed}.chip.remote{background:var(--remote)}
+.kpis{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin:11px 0}.panel,.kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px}.kpi{padding:12px}.kpi .label{font-size:9px;color:var(--muted);font-weight:800;letter-spacing:.05em}.kpi .num{font-size:25px;font-weight:800;margin-top:3px}
+.info{padding:11px 13px;font-size:11px;line-height:1.45;margin-bottom:10px}.tabs{display:flex;gap:6px;padding:10px;overflow:auto}.tab{border:0;background:#edf1f5;border-radius:8px;padding:9px 11px;font-weight:750;cursor:pointer;white-space:nowrap}.tab.active{background:#dce6f3}
+.filters{display:grid;grid-template-columns:2fr repeat(6,1fr);gap:7px;padding:0 10px 8px}input,select,button{min-height:38px;border:1px solid #cfd6df;border-radius:7px;padding:7px 8px;background:#fff;font-size:13px;color:var(--text)}button{cursor:pointer}
+.toggles{display:flex;gap:13px;flex-wrap:wrap;align-items:center;padding:0 11px 10px;font-size:11px}.toggles label{display:flex;gap:5px;align-items:center}.toggles input{min-height:auto}
+.actionbar{display:flex;gap:7px;flex-wrap:wrap;padding:0 10px 10px}.actionbar button{font-weight:700;background:#eef2f6}.count{padding:0 12px 9px;color:var(--muted);font-size:11px}
+.scroll{overflow:auto}table{width:100%;border-collapse:collapse;min-width:1780px}th,td{padding:8px 7px;border-bottom:1px solid #edf0f3;text-align:left;vertical-align:top;font-size:11px}th{font-size:9px;color:var(--muted);background:#f8fafb;position:sticky;top:0;z-index:1}
+tr.t1{border-left:4px solid var(--green)}tr.t2{border-left:4px solid var(--blue)}tr.t3{border-left:4px solid var(--gold)}tr.t4{border-left:4px solid #8c6ab0}
+.pill{display:inline-block;border-radius:999px;padding:3px 6px;font-size:9px;font-weight:850;white-space:nowrap;margin:1px 2px 1px 0}.r1{background:#e8f1ff}.r2{background:#f1eaff}.r3{background:#e5f5ec}.good{background:#e5f5ec}.new{background:#e8f1ff}.top{background:#fff0bd}.local{background:#e7f7ed}.remote{background:#e7f0ff}.cth{background:#fff1dd}.official{background:#e5f5ec}
+.company{font-weight:800;margin-bottom:2px}.role{font-weight:700}.note{font-size:9.5px;color:var(--muted);line-height:1.35;margin-top:4px;max-width:390px}.rule{font-size:9px;color:#84621b;margin-top:3px}
+a.job,button.copy{display:inline-block;background:var(--navy);color:white;border:0;text-decoration:none;border-radius:7px;padding:7px 8px;font-weight:750;font-size:10px;cursor:pointer;white-space:nowrap}button.copy{background:#596779;margin-top:4px;min-height:28px}.notes{width:190px;min-height:34px;font-size:10px}
+footer{margin-top:10px;padding:11px;font-size:10.5px;line-height:1.5;color:var(--muted)}#toast{position:fixed;right:18px;bottom:18px;background:#1f2937;color:#fff;padding:9px 12px;border-radius:8px;font-size:11px;display:none;z-index:20}
+@media(max-width:1100px){main{padding:8px}.kpis{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main>
+<header><div><h1>Job Search Command Center</h1><div class="muted">Local-first + Texas-eligible remote queue</div></div><div class="muted small">Full audit: Aug 24, 2026</div></header>
+<div class="marketbar">
+<span class="chip local">DFW · 25 active</span><span class="chip">Houston · 10</span><span class="chip">New York · 10</span><span class="chip">Chicago · 10</span><span class="chip remote">Remote / Nationwide · 10</span>
+</div>
+<div class="kpis">
+<div class="kpi"><div class="label">TO APPLY</div><div class="num" id="cTo">0</div></div>
+<div class="kpi"><div class="label">TOP PICKS</div><div class="num" id="cTop">0</div></div>
+<div class="kpi"><div class="label">REMOTE</div><div class="num" id="cRemote">0</div></div>
+<div class="kpi"><div class="label">APPLIED</div><div class="num" id="cApp">0</div></div>
+<div class="kpi"><div class="label">INTERVIEWING</div><div class="num" id="cInt">0</div></div>
+<div class="kpi"><div class="label">WATCHLIST</div><div class="num" id="cWatch">0</div></div>
+<div class="kpi"><div class="label">SKIPPED / CLOSED</div><div class="num" id="cArc">0</div></div>
+</div>
+<div class="panel info">
+<b>QA policy:</b> every update now includes a link audit + interactive regression test. Remote jobs must be usable from Texas, not merely labeled “remote.” <b>New:</b> Work Mode, Employment Type, Official-links-only, Remote-only, Texas-eligible remote badges, Clear Filters, CSV backup/export, and last-action timestamps.
+</div>
+<div class="panel">
+<div class="tabs">
+<button class="tab active" data-tab="To Apply">To Apply</button><button class="tab" data-tab="Applied">Applied</button><button class="tab" data-tab="Interviewing">Interviewing</button><button class="tab" data-tab="Watchlist">Watchlist</button><button class="tab" data-tab="Skipped">Skipped</button><button class="tab" data-tab="Closed">Closed</button>
+</div>
+<div class="filters">
+<input id="search" placeholder="Search company, role, location, notes…">
+<select id="market"><option value="all">All markets</option><option>DFW</option><option>Houston</option><option>New York</option><option>Chicago</option><option>Remote / Nationwide</option></select>
+<select id="workmode"><option value="all">All work modes</option><option>Remote</option><option>Hybrid</option><option>On-site</option></select>
+<select id="etype"><option value="all">All employment types</option><option>Full-time</option><option>Contract</option><option>Contract-to-hire</option></select>
+<select id="resume"><option value="all">All resumes</option><option>R1</option><option>R2</option><option>R3</option></select>
+<select id="minfit"><option value="0">Any fit</option><option value="5.5">Fit 5.5+</option><option value="6.5">Fit 6.5+</option><option value="7.5">Fit 7.5+</option></select>
+<select id="sort"><option value="local">Sort: local-first</option><option value="priority">Sort: tier/fit</option><option value="fit">Sort: fit</option><option value="market">Sort: market</option></select>
+</div>
+<div class="toggles">
+<label><input type="checkbox" id="toponly"> Top Picks only</label>
+<label><input type="checkbox" id="remoteonly"> Remote only</label>
+<label><input type="checkbox" id="officialonly"> Official links only</label>
+<label><input type="checkbox" id="knownpay"> Known pay only</label>
+<label><input type="checkbox" id="salary70"> $70K+ potential only</label>
+<label><input type="checkbox" id="newonly"> New additions only</label>
+</div>
+<div class="actionbar"><button id="clearfilters">Clear filters</button><button id="exportcsv">Export CSV backup</button></div>
+<div class="count" id="count"></div>
+</div>
+<div class="panel" style="margin-top:10px"><div class="scroll"><table>
+<thead><tr><th>#</th><th>Flags</th><th>Market</th><th>Company / Role</th><th>Location</th><th>Work Mode</th><th>Employment</th><th>Pay</th><th>Fit</th><th>Resume</th><th>Verification</th><th>Link</th><th>Status</th><th>My Notes</th><th>Last Action</th></tr></thead>
+<tbody id="rows"></tbody></table></div></div>
+<footer class="panel"><b>Resume routing:</b> R1 healthcare / claims / revenue cycle / compliance · R2 BA / consulting / strategy / operations · R3 data / reporting / BI. Statuses, notes and action timestamps are saved locally in this browser. Use <b>Export CSV backup</b> before switching browsers/devices.</footer>
+</main><div id="toast"></div>
+<script>
+let jobs=[]; let rules={}; let active='To Apply';
+const statusKey='ezekiel-job-dashboard-status-v4',notesKey='ezekiel-job-dashboard-notes-v2',actionsKey='ezekiel-job-dashboard-actions-v1';
+let statuses={},notes={},actions={};
+try{statuses=JSON.parse(localStorage.getItem(statusKey)||'{}')}catch(e){}
+try{notes=JSON.parse(localStorage.getItem(notesKey)||'{}')}catch(e){}
+try{actions=JSON.parse(localStorage.getItem(actionsKey)||'{}')}catch(e){}
+const $=id=>document.getElementById(id); const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const getStatus=j=>statuses[j.id]||j.defaultStatus||'To Apply';
+function stamp(id,msg){actions[id]=new Date().toLocaleString()+' · '+msg;localStorage.setItem(actionsKey,JSON.stringify(actions))}
+function saveStatus(id,v){statuses[id]=v;localStorage.setItem(statusKey,JSON.stringify(statuses));stamp(id,'Status → '+v)}
+function saveNote(id,v){notes[id]=v;localStorage.setItem(notesKey,JSON.stringify(notes));stamp(id,'Note updated')}
+function toast(msg){const t=$('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',1100)}
+function counts(){
+ const s=jobs.map(getStatus); $('cTo').textContent=s.filter(x=>x==='To Apply').length; $('cTop').textContent=jobs.filter(j=>getStatus(j)==='To Apply'&&j.topPick).length;
+ $('cRemote').textContent=jobs.filter(j=>getStatus(j)==='To Apply'&&j.market==='Remote / Nationwide').length; $('cApp').textContent=s.filter(x=>x==='Applied').length;
+ $('cInt').textContent=s.filter(x=>x==='Interviewing').length; $('cWatch').textContent=s.filter(x=>x==='Watchlist').length; $('cArc').textContent=s.filter(x=>x==='Skipped'||x==='Closed').length;
+}
+function copyText(text){const fallback=()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();toast('Link copied')}; if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(text).then(()=>toast('Link copied')).catch(fallback);else fallback()}
+function filtered(){
+ const q=$('search').value.trim().toLowerCase(),market=$('market').value,wm=$('workmode').value,et=$('etype').value,res=$('resume').value,minfit=Number($('minfit').value);
+ let list=jobs.filter(j=>getStatus(j)===active&&(!q||(`${j.company} ${j.role} ${j.location} ${j.note} ${notes[j.id]||''}`).toLowerCase().includes(q))&&(market==='all'||j.market===market)&&(wm==='all'||j.workMode===wm)&&(et==='all'||j.employmentType===et)&&(res==='all'||j.resume===res)&&Number(j.fit)>=minfit&&(!$('toponly').checked||j.topPick)&&(!$('remoteonly').checked||j.workMode==='Remote')&&(!$('officialonly').checked||j.officialLink)&&(!$('knownpay').checked||j.knownPay)&&(!$('salary70').checked||j.salaryPotential70)&&(!$('newonly').checked||j.isNew));
+ const sort=$('sort').value;if(sort==='fit')list.sort((a,b)=>b.fit-a.fit||a.tier-b.tier);else if(sort==='market')list.sort((a,b)=>a.market.localeCompare(b.market)||a.tier-b.tier||b.fit-a.fit);else if(sort==='priority')list.sort((a,b)=>a.tier-b.tier||b.fit-a.fit);else list.sort((a,b)=>(b.localPriority?1:0)-(a.localPriority?1:0)||a.tier-b.tier||b.fit-a.fit);
+ return list;
+}
+function render(){
+ const list=filtered(); $('rows').innerHTML=list.length?list.map((j,i)=>`<tr class="t${j.tier}">
+ <td><b>${i+1}</b><div class="note">T${j.tier}</div></td>
+ <td>${j.localPriority?'<span class="pill local">LOCAL</span> ':''}${j.workMode==='Remote'?'<span class="pill remote">REMOTE</span> ':''}${j.texasEligibleRemote&&j.market==='Remote / Nationwide'?'<span class="pill good">TX-ELIGIBLE</span> ':''}${j.isNew?'<span class="pill new">NEW</span> ':''}${j.topPick?'<span class="pill top">★ TOP</span> ':''}${j.officialLink?'<span class="pill official">OFFICIAL</span> ':''}</td>
+ <td><b>${esc(j.market)}</b><div class="rule">${esc(rules[j.market]||'')}</div></td><td><div class="company">${esc(j.company)}</div><div class="role">${esc(j.role)}</div><div class="note">${esc(j.note)}</div></td>
+ <td>${esc(j.location)}</td><td><b>${esc(j.workMode)}</b></td><td>${esc(j.employmentType)}</td><td><b>${esc(j.pay)}</b></td><td><b>${Number(j.fit).toFixed(1)}</b>/10</td><td><span class="pill ${j.resume.toLowerCase()}">${j.resume}</span></td>
+ <td><span class="pill good">${esc(j.verification)}</span><div class="note">Checked ${esc(j.checked)}</div></td><td><a class="job" href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">Open ↗</a><br><button class="copy" data-copy="${esc(j.url)}">Copy link</button></td>
+ <td><select data-id="${esc(j.id)}">${['To Apply','Applied','Interviewing','Watchlist','Skipped','Closed'].map(s=>`<option${s===active?' selected':''}>${s}</option>`).join('')}</select></td>
+ <td><input class="notes" data-note="${esc(j.id)}" value="${esc(notes[j.id]||'')}" placeholder="Recruiter, date, next step…"></td><td class="note">${esc(actions[j.id]||'—')}</td></tr>`).join(''):`<tr><td colspan="15" style="padding:24px;color:#687485">No jobs match these filters.</td></tr>`;
+ document.querySelectorAll('select[data-id]').forEach(el=>el.addEventListener('change',()=>{saveStatus(el.dataset.id,el.value);counts();render()}));document.querySelectorAll('input[data-note]').forEach(el=>el.addEventListener('change',()=>{saveNote(el.dataset.note,el.value)}));document.querySelectorAll('button[data-copy]').forEach(el=>el.addEventListener('click',()=>copyText(el.dataset.copy)));
+ $('count').textContent=`Showing ${list.length} job${list.length===1?'':'s'} in ${active}`;counts();
+}
+function clearFilters(){$('search').value='';$('market').value='all';$('workmode').value='all';$('etype').value='all';$('resume').value='all';$('minfit').value='0';$('sort').value='local';['toponly','remoteonly','officialonly','knownpay','salary70','newonly'].forEach(id=>$(id).checked=false);render();toast('Filters cleared')}
+function csvCell(v){return '"'+String(v??'').replace(/"/g,'""')+'"'}
+function exportCSV(){
+ const headers=['Company','Role','Market','Location','Work Mode','Employment Type','Pay','Fit','Resume','Status','Official Link','URL','My Notes','Last Action'];
+ const lines=[headers.map(csvCell).join(',')];jobs.forEach(j=>lines.push([j.company,j.role,j.market,j.location,j.workMode,j.employmentType,j.pay,j.fit,j.resume,getStatus(j),j.officialLink?'Yes':'No',j.url,notes[j.id]||'',actions[j.id]||''].map(csvCell).join(',')));
+ const blob=new Blob([lines.join('\n')],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='Ezekiel_Job_Dashboard_Backup.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('CSV exported');
+}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.tab;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));render()}));
+['search','market','workmode','etype','resume','minfit','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));['toponly','remoteonly','officialonly','knownpay','salary70','newonly'].forEach(id=>$(id).addEventListener('change',render));
+$('clearfilters').addEventListener('click',clearFilters);$('exportcsv').addEventListener('click',exportCSV);
+fetch('jobs.json',{cache:'no-store'})
+  .then(r=>{if(!r.ok)throw new Error('jobs.json unavailable');return r.json();})
+  .then(d=>{jobs=d.jobs||[];rules=d.market_rules||{};render();})
+  .catch(err=>{
+    document.getElementById('count').textContent='Could not load jobs.json. The hosted dashboard needs jobs.json in the same folder.';
+    console.error(err);
+  });
+</script></body></html>
