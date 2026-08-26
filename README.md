@@ -1,22 +1,21 @@
 # Ezekiel Job Search Dashboard
 
-Current queues:
-- DFW: 25 active
+Current queues (Aug 26, 2026 refresh):
+- DFW: 29 active
 - Greater Houston: 10
 - New York: 10
 - Chicago: 10
-- Remote / Nationwide: 10 Texas-eligible roles
-- Plus Watchlist items
+- Remote / Nationwide: 11 Texas-eligible roles
+- Plus 1 Watchlist item
+
+Today’s refresh added five verified opportunities and refreshed the UnitedHealthcare OON dispute role against a current posting. Existing application IDs were preserved so browser-saved statuses and notes continue to map to the same jobs.
 
 ## Why `jobs.json` is separate
-`index.html` now fetches `jobs.json` every time the site loads. That means the daily updater can replace only `jobs.json` and the website immediately reflects the refreshed job list without rebuilding the interface.
+`index.html` fetches `jobs.json` every time the site loads. That means a refresh can replace only `jobs.json` and the website immediately reflects the updated job list without rebuilding the interface.
 
 ## GitHub Pages setup
-1. Create a public GitHub repository named `job-search-dashboard`.
-2. Upload `index.html`, `jobs.json`, and `README.md` to the repository root.
-3. Go to Settings → Pages.
-4. Choose Deploy from a branch.
-5. Select `main` and `/(root)`.
-6. Save and bookmark the GitHub Pages URL.
+1. Keep `index.html`, `jobs.json`, and `README.md` in the repository root.
+2. GitHub Pages should deploy from `main` and `/(root)`.
+3. To publish a refresh, replace the three files and commit the changes. Pages redeploys automatically.
 
 Application statuses, notes, and action timestamps are stored in browser localStorage. Use the dashboard's CSV export for backup before changing browsers/devices.
