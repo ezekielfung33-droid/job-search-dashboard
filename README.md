@@ -1,21 +1,28 @@
 # Ezekiel Job Search Dashboard
 
-Current queues (Aug 26, 2026 refresh):
-- DFW: 29 active
-- Greater Houston: 10
-- New York: 10
-- Chicago: 10
+Current source queues (Aug 30, 2026 refresh):
+- DFW: 30 active
+- Greater Houston: 11
+- New York: 11
+- Chicago: 11
 - Remote / Nationwide: 11 Texas-eligible roles
 - Plus 1 Watchlist item
+- Plus 2 Closed items retained for history
 
-Today’s refresh added five verified opportunities and refreshed the UnitedHealthcare OON dispute role against a current posting. Existing application IDs were preserved so browser-saved statuses and notes continue to map to the same jobs.
+This refresh added six verified opportunities, moved expired/no-longer-verifiable postings out of the active queue, corrected direct links, and recalibrated several fit scores against current requirements. Existing job IDs and browser-storage keys were preserved so saved statuses and notes continue to map to the same jobs.
+
+## New Aug. 30 opportunities
+- Optum / UnitedHealth Group — Strategy Analyst, Life Sciences — National Remote
+- Third Bridge — Associate, Client Services — 2027 Start Dates — Dallas
+- Texas Oncology — Data Coordinator — Dallas Sammons — Hybrid
+- Robert Half — Business Analyst I — Houston
+- Fitch Ratings — Business Analyst — Chicago
+- Fitch Ratings — Business Analyst — New York
 
 ## Why `jobs.json` is separate
-`index.html` fetches `jobs.json` every time the site loads. That means a refresh can replace only `jobs.json` and the website immediately reflects the updated job list without rebuilding the interface.
+`index.html` fetches `jobs.json` every time the site loads. Application statuses, notes, and action timestamps remain browser-local.
 
-## GitHub Pages setup
-1. Keep `index.html`, `jobs.json`, and `README.md` in the repository root.
-2. GitHub Pages should deploy from `main` and `/(root)`.
-3. To publish a refresh, replace the three files and commit the changes. Pages redeploys automatically.
+## Publishing this refresh
+Replace `index.html`, `jobs.json`, and `README.md` in the repository root and commit. GitHub Pages will redeploy automatically. This refresh updates the visible audit date/market badges in `index.html`, so replace all three files this time.
 
-Application statuses, notes, and action timestamps are stored in browser localStorage. Use the dashboard's CSV export for backup before changing browsers/devices.
+Use the dashboard's CSV export before switching browsers/devices.
