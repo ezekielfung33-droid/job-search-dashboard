@@ -1,28 +1,49 @@
-# Ezekiel Job Search Dashboard
+# Ezekiel Job Search Dashboard — Aug. 31, 2026 Refresh
 
-Current source queues (Aug 30, 2026 refresh):
-- DFW: 30 active
-- Greater Houston: 11
-- New York: 11
-- Chicago: 11
-- Remote / Nationwide: 11 Texas-eligible roles
-- Plus 1 Watchlist item
-- Plus 2 Closed items retained for history
+This refresh widens the funnel beyond healthcare toward:
+- Business Analyst
+- Operations / Process Analyst
+- Finance / FP&A
+- Risk / Controls
+- Strategy / Planning
+- Project / entry-level corporate roles
+- Healthcare analyst roles when they are a strong fit
 
-This refresh added six verified opportunities, moved expired/no-longer-verifiable postings out of the active queue, corrected direct links, and recalibrated several fit scores against current requirements. Existing job IDs and browser-storage keys were preserved so saved statuses and notes continue to map to the same jobs.
+## Files in this update
+- `index.html` — updated dashboard interface; merges the existing board with the Aug. 31 additions.
+- `jobs_aug31.json` — Aug. 31 additions / refreshed records.
+- `README.md` — these instructions.
 
-## New Aug. 30 opportunities
-- Optum / UnitedHealth Group — Strategy Analyst, Life Sciences — National Remote
-- Third Bridge — Associate, Client Services — 2027 Start Dates — Dallas
-- Texas Oncology — Data Coordinator — Dallas Sammons — Hybrid
-- Robert Half — Business Analyst I — Houston
-- Fitch Ratings — Business Analyst — Chicago
-- Fitch Ratings — Business Analyst — New York
+## Important: keep your existing `jobs.json`
+Do **not** delete the existing `jobs.json` from the repository. The updated `index.html` loads:
+1. the existing `jobs.json`, then
+2. `jobs_aug31.json`
 
-## Why `jobs.json` is separate
-`index.html` fetches `jobs.json` every time the site loads. Application statuses, notes, and action timestamps remain browser-local.
+Records are merged by stable job `id`, so:
+- older jobs stay on the board,
+- refreshed jobs can overwrite older metadata without creating duplicates,
+- browser-saved application statuses and notes continue to map to the same IDs.
 
-## Publishing this refresh
-Replace `index.html`, `jobs.json`, and `README.md` in the repository root and commit. GitHub Pages will redeploy automatically. This refresh updates the visible audit date/market badges in `index.html`, so replace all three files this time.
+## GitHub Pages deployment
+Your repository root should contain:
+- `index.html`
+- `jobs.json` (existing file — keep it)
+- `jobs_aug31.json` (new)
+- `README.md`
 
-Use the dashboard's CSV export before switching browsers/devices.
+Upload/replace `index.html` and `README.md`, add `jobs_aug31.json`, leave `jobs.json` in place, and commit to `main`. GitHub Pages will redeploy from the repository root.
+
+## Aug. 31 priority additions
+Highest-priority new targets include:
+1. Bank of America — Risk Process Analyst
+2. American Airlines — Analyst/Sr Analyst, Financial Planning & Analysis
+3. Gartner — Business Analyst, Conferences Sales Operations
+4. CHRISTUS Health — Financial Analyst I
+5. Bank of America — Commercial Credit Analyst
+6. Hilltop Securities — Risk Analysis Associate
+7. Zelis — Contract Analyst I
+8. Texas Oncology / US Oncology — Healthcare Operations Business Analyst
+9. American Airlines — Strategic Planning and Analysis
+10. Citi — Loan Documentation and Processing Associate Analyst
+
+HCSC Privacy Analyst is included as a refreshed existing record rather than a duplicate.
