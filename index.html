@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ezekiel Job Search Dashboard — Aug 31 Refresh</title>
+<title>Ezekiel Job Search Dashboard — Sep 1 Refresh</title>
 <style>
 :root{--bg:#f5f7fa;--panel:#fff;--text:#18212b;--muted:#687485;--line:#dde3ea;--navy:#21354e;--green:#24844b;--blue:#5274a6;--gold:#b47c1c;--remote:#e7f0ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
@@ -25,7 +25,7 @@ footer{margin-top:10px;padding:11px;font-size:10.5px;line-height:1.5;color:var(-
 </style>
 </head>
 <body><main>
-<header><div><h1>Job Search Command Center</h1><div class="muted">Local-first + Texas-eligible remote · broader corporate/BA funnel</div></div><div class="muted small">Refresh: Aug 31, 2026</div></header>
+<header><div><h1>Job Search Command Center</h1><div class="muted">Local-first + Texas-eligible remote · broader corporate/BA funnel</div></div><div class="muted small">Refresh: Sep 1, 2026</div></header>
 <div class="marketbar" id="marketbar"></div>
 <div class="kpis">
 <div class="kpi"><div class="label">TO APPLY</div><div class="num" id="cTo">0</div></div>
@@ -37,7 +37,7 @@ footer{margin-top:10px;padding:11px;font-size:10.5px;line-height:1.5;color:var(-
 <div class="kpi"><div class="label">SKIPPED / CLOSED</div><div class="num" id="cArc">0</div></div>
 </div>
 <div class="panel info">
-<b>Aug. 31 strategy:</b> Business Analyst, operations, finance, risk, strategy, project and entry corporate roles now receive equal or higher priority than healthcare-only roles. This page merges <b>jobs.json</b> (existing board) with <b>jobs_aug31.json</b> (today's refresh), so older jobs and localStorage status IDs stay intact.
+<b>Sep. 1 strategy:</b> Business Analyst, operations, finance, risk, strategy, project and entry corporate roles now receive equal or higher priority than healthcare-only roles. This page merges <b>jobs.json</b>, <b>jobs_aug31.json</b>, and <b>jobs_sep1.json</b>, so older jobs and browser-saved status IDs stay intact.
 </div>
 <div class="panel">
 <div class="tabs">
@@ -114,13 +114,15 @@ document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{act
 $('clearfilters').addEventListener('click',clearFilters);$('exportcsv').addEventListener('click',exportCSV);
 Promise.all([
  fetch('jobs.json',{cache:'no-store'}).then(r=>r.ok?r.json():({jobs:[],market_rules:{}})).catch(()=>({jobs:[],market_rules:{}})),
- fetch('jobs_aug31.json',{cache:'no-store'}).then(r=>r.ok?r.json():({jobs:[]})).catch(()=>({jobs:[]}))
-]).then(([base,add])=>{
+ fetch('jobs_aug31.json',{cache:'no-store'}).then(r=>r.ok?r.json():({jobs:[]})).catch(()=>({jobs:[]})),
+ fetch('jobs_sep1.json',{cache:'no-store'}).then(r=>r.ok?r.json():({jobs:[]})).catch(()=>({jobs:[]}))
+]).then(([base,aug31,sep1])=>{
  rules=base.market_rules||{
   "DFW":"No relocation premium required.","Houston":"Prefer high-$60Ks+ before relocating.","New York":"Prefer ~$75K+ or exceptional upside before relocating.","Chicago":"Prefer ~$75K+ or exceptional upside before relocating.","Remote / Nationwide":"Must be genuinely Texas-eligible remote."
  };
  const map=new Map((base.jobs||[]).map(j=>[j.id,j]));
- (add.jobs||[]).forEach(j=>map.set(j.id,{...(map.get(j.id)||{}),...j}));
+ (aug31.jobs||[]).forEach(j=>map.set(j.id,{...(map.get(j.id)||{}),...j}));
+ (sep1.jobs||[]).forEach(j=>map.set(j.id,{...(map.get(j.id)||{}),...j}));
  jobs=[...map.values()];render();
 }).catch(err=>{document.getElementById('count').textContent='Could not load job data.';console.error(err)});
 </script></body></html>

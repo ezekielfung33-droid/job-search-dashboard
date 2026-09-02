@@ -1,49 +1,33 @@
-# Ezekiel Job Search Dashboard — Aug. 31, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 1, 2026 Refresh
 
-This refresh widens the funnel beyond healthcare toward:
-- Business Analyst
-- Operations / Process Analyst
-- Finance / FP&A
-- Risk / Controls
-- Strategy / Planning
-- Project / entry-level corporate roles
-- Healthcare analyst roles when they are a strong fit
+Upload/replace:
+- index.html
+- README.md
 
-## Files in this update
-- `index.html` — updated dashboard interface; merges the existing board with the Aug. 31 additions.
-- `jobs_aug31.json` — Aug. 31 additions / refreshed records.
-- `README.md` — these instructions.
+Add:
+- jobs_sep1.json
 
-## Important: keep your existing `jobs.json`
-Do **not** delete the existing `jobs.json` from the repository. The updated `index.html` loads:
-1. the existing `jobs.json`, then
-2. `jobs_aug31.json`
+Keep:
+- jobs.json
+- jobs_aug31.json
 
-Records are merged by stable job `id`, so:
-- older jobs stay on the board,
-- refreshed jobs can overwrite older metadata without creating duplicates,
-- browser-saved application statuses and notes continue to map to the same IDs.
+Repository root after upload:
+README.md
+index.html
+jobs.json
+jobs_aug31.json
+jobs_sep1.json
 
-## GitHub Pages deployment
-Your repository root should contain:
-- `index.html`
-- `jobs.json` (existing file — keep it)
-- `jobs_aug31.json` (new)
-- `README.md`
+September 1 priority additions:
+1. First American — Business Systems Analyst (Remote - US) — $73.9K–$98.5K
+2. PowerSchool — Business Operations Analyst / BSA — Dallas — $67K–$83.8K
+3. Invitation Homes — Analyst, Asset Management — Dallas
+4. American Airlines — Analyst/Sr Analyst, Division Finance — Fort Worth
+5. Invitation Homes — Analyst, SEC Reporting — Dallas — $57.9K–$100.3K
+6. Rithum — Business Systems Analyst — Remote — $65K–$117K
 
-Upload/replace `index.html` and `README.md`, add `jobs_aug31.json`, leave `jobs.json` in place, and commit to `main`. GitHub Pages will redeploy from the repository root.
+Screened out:
+- MD Anderson Managed Care Analyst — closed on official site.
+- BravoTech Data Analyst – AI & Business Insights — no longer available.
 
-## Aug. 31 priority additions
-Highest-priority new targets include:
-1. Bank of America — Risk Process Analyst
-2. American Airlines — Analyst/Sr Analyst, Financial Planning & Analysis
-3. Gartner — Business Analyst, Conferences Sales Operations
-4. CHRISTUS Health — Financial Analyst I
-5. Bank of America — Commercial Credit Analyst
-6. Hilltop Securities — Risk Analysis Associate
-7. Zelis — Contract Analyst I
-8. Texas Oncology / US Oncology — Healthcare Operations Business Analyst
-9. American Airlines — Strategic Planning and Analysis
-10. Citi — Loan Documentation and Processing Associate Analyst
-
-HCSC Privacy Analyst is included as a refreshed existing record rather than a duplicate.
+After committing, wait for GitHub Pages to deploy and hard-refresh with Ctrl + Shift + R.
