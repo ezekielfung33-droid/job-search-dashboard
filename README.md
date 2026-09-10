@@ -1,33 +1,25 @@
-# Ezekiel Job Search Dashboard — September 1, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 10, 2026 Refresh
 
-Upload/replace:
-- index.html
-- README.md
+Live dashboard history retained:
+- `jobs.json`
+- `jobs_aug31.json`
+- `jobs_sep1.json`
+- `jobs_sep10.json`
 
-Add:
-- jobs_sep1.json
+The dashboard merges all four data files by stable job ID, so historical records remain available and browser-saved application statuses, notes, and action timestamps continue to use the existing localStorage keys.
 
-Keep:
-- jobs.json
-- jobs_aug31.json
+## September 10 priority additions
 
-Repository root after upload:
-README.md
-index.html
-jobs.json
-jobs_aug31.json
-jobs_sep1.json
+1. HCSC — Provider Data Analyst - Work From Home — Richardson/Texas remote — $38.1K–$80K
+2. American Airlines — Analyst, AACU Payments Products and Innovation — Fort Worth
+3. HCSC — SDG Implementation Analyst II — Richardson — $41.7K–$92.8K
+4. Texas Instruments — Career Accelerator Program - Operations Analyst — Dallas
+5. American Airlines — Analyst, Cargo Revenue Management — Fort Worth
 
-September 1 priority additions:
-1. First American — Business Systems Analyst (Remote - US) — $73.9K–$98.5K
-2. PowerSchool — Business Operations Analyst / BSA — Dallas — $67K–$83.8K
-3. Invitation Homes — Analyst, Asset Management — Dallas
-4. American Airlines — Analyst/Sr Analyst, Division Finance — Fort Worth
-5. Invitation Homes — Analyst, SEC Reporting — Dallas — $57.9K–$100.3K
-6. Rithum — Business Systems Analyst — Remote — $65K–$117K
+Fit scores are deliberately conservative and based on Ezekiel's current Healthcare Management degree, UTSW patient-access experience, operations/inventory exposure, budgeting experience, and listed Microsoft Office skills.
 
-Screened out:
-- MD Anderson Managed Care Analyst — closed on official site.
-- BravoTech Data Analyst – AI & Business Insights — no longer available.
+## Screened out
 
-After committing, wait for GitHub Pages to deploy and hard-refresh with Ctrl + Shift + R.
+Clearly senior or hard-mismatch roles were excluded, including American Airlines Digital Analytics, Customer Experience Program Management, Debt Management & Compliance, and PowerSchool PX Operations Analyst.
+
+Last refreshed: September 10, 2026.
