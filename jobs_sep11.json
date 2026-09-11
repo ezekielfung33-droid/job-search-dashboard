@@ -1,0 +1,128 @@
+{
+  "updated": "2026-09-11",
+  "jobs": [
+    {
+      "id": "dfw-hcsc-project-admin-coordinator-iii-r0055582-sep11",
+      "market": "DFW",
+      "tier": 1,
+      "company": "Health Care Service Corporation (HCSC)",
+      "role": "Project & Administrative Coordinator III",
+      "location": "Richardson / Dallas, TX",
+      "pay": "$18.46–$37.84/hr",
+      "fit": 8.1,
+      "resume": "R2",
+      "url": "https://careers.hcsc.com/job/richardson/project-and-administrative-coordinator-iii/43046/100427420672",
+      "verification": "Official direct · posted Sep 10",
+      "checked": "2026-09-11",
+      "note": "Strong realistic project/operations bridge. Hard requirements are HS/GED, 3 years Microsoft Office, project coordination/organization, travel/expense support, customer service and deadline management; healthcare/insurance and project/event experience are preferred. UTSW patient-access and operations exposure map well, though travel/expense coordination should be addressed honestly.",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "workMode": "Hybrid",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "remote-uhg-business-operations-specialist-2382608-sep11",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "UnitedHealth Group / Optum",
+      "role": "Business Operations Specialist",
+      "location": "National Remote · Dallas listed",
+      "pay": "$20–$36/hr",
+      "fit": 8.0,
+      "resume": "R2",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/business-operations-specialist/34088/100040277680",
+      "verification": "Official direct · live Sep 11 · national remote",
+      "checked": "2026-09-11",
+      "note": "Very accessible corporate-operations target. Required qualifications are HS/GED, age 18+, and Microsoft Office experience. Work includes request intake, prioritization, senior-leader PowerPoint/ad-hoc reporting, tracking, database work and cross-functional communication. Texas is eligible for the national-remote arrangement.",
+      "localPriority": false,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-jpm-client-operations-analyst-plano-sep11",
+      "market": "DFW",
+      "tier": 2,
+      "company": "JPMorganChase",
+      "role": "Client Operations Analyst",
+      "location": "Plano, TX",
+      "pay": "Not posted by employer in retrieved listing",
+      "fit": 7.3,
+      "resume": "R2",
+      "url": "https://builtin.com/job/client-operations-analyst/11073148",
+      "verification": "Current posting · Plano · verified Sep 11",
+      "checked": "2026-09-11",
+      "note": "Good operations-analyst stretch: client onboarding/service operations, transaction support, troubleshooting, change management, continuous improvement and stakeholder work. No fixed years-of-experience minimum surfaced, but baseline client-service operations, anti-fraud familiarity, and basic automation/systems knowledge are expected. Link is a current job-board copy because an indexed direct employer URL was not available.",
+      "localPriority": true,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": true,
+      "workMode": "Hybrid",
+      "employmentType": "Full-time",
+      "officialLink": false,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-aa-inflight-training-aqp-88012-sep11",
+      "market": "DFW",
+      "tier": 2,
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Inflight Training Advanced Qualification Program (AQP)",
+      "location": "Fort Worth, TX",
+      "pay": "Not posted",
+      "fit": 6.9,
+      "resume": "R2",
+      "url": "https://jobs.aa.com/job/Fort-Worth-AnalystSr-Analyst%2C-Inflight-Training-Advanced-Qualification-Program-%28AQP%29-TX-76101/88012-en_US/",
+      "verification": "Official direct · live Sep 11",
+      "checked": "2026-09-11",
+      "note": "Credible stretch because the minimum is a related bachelor's or equivalent training/experience plus one year of MS Office/document publishing. Work includes reporting, trend analysis, presentations, documentation and regulatory audits. Aviation/AQP experience is preferred rather than required, but the domain gap keeps the fit below top-tier.",
+      "localPriority": true,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": true,
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screened_out": [
+    {
+      "company": "American Airlines",
+      "role": "Analyst, Inflight Training",
+      "reason": "Requires 3 years relevant experience, 1 year financial reporting/modeling, 1 year project management, and Power BI/Tableau experience."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Division Finance",
+      "reason": "Requires 2–3 years related experience and advanced Excel modeling; finance-specific depth is a material gap."
+    },
+    {
+      "company": "Brown & Brown",
+      "role": "Technology Risk & Compliance Analyst",
+      "reason": "Requires 3–7 years IT risk/compliance/audit/cybersecurity plus GRC framework expertise."
+    },
+    {
+      "company": "UnitedHealth Group / Optum",
+      "role": "Payment Integrity Analyst - Fraud Waste and Abuse",
+      "reason": "Requires 3+ years healthcare FWA investigation plus claims/coding and subpoena experience."
+    },
+    {
+      "company": "HCSC",
+      "role": "Sr Analytics & Reporting Analyst - Work From Home",
+      "reason": "Senior analytics posting; excluded to keep the board focused on realistic entry/early-career targets."
+    }
+  ]
+}
