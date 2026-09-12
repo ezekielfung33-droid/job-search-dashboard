@@ -1,0 +1,104 @@
+{
+  "updated": "2026-09-12",
+  "jobs": [
+    {
+      "id": "dfw-bofa-gfc-investigations-jr26026513",
+      "market": "DFW",
+      "tier": 1,
+      "company": "Bank of America",
+      "role": "GFC Investigations Analyst",
+      "location": "Fort Worth / Dallas / Addison / Plano, TX",
+      "pay": "Not posted for Texas",
+      "fit": 7.9,
+      "resume": "R1",
+      "url": "https://careers.bankofamerica.com/en-us/job-detail/26026513/gfc-investigations-analyst-multiple-locations-esomprank-fd99cclhss-1",
+      "verification": "Official direct · live Sep 12 · posted Sep 8",
+      "checked": "2026-09-12",
+      "note": "Strong risk/compliance bridge. Required qualifications emphasize analytical problem-solving, written communication, organization, technical adaptability, deadline management and risk judgment; 1+ year AML/financial-crimes experience is desired rather than required. Ezekiel's healthcare operations/patient-access background maps to regulated-process discipline, documentation and issue escalation, but AML/SAR knowledge is a real domain gap.",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-bofa-risk-process-jr26027282",
+      "market": "DFW",
+      "tier": 1,
+      "company": "Bank of America",
+      "role": "Risk Process Analyst",
+      "location": "Plano / Fort Worth, TX",
+      "pay": "Texas range not posted",
+      "fit": 7.5,
+      "resume": "R2",
+      "url": "https://careers.bankofamerica.com/en-us/job-detail/26027282/risk-process-analyst-multiple-locations-esomprank-rtvxokd8bj-5",
+      "verification": "Official direct · live Sep 12",
+      "checked": "2026-09-12",
+      "note": "Good early-career process/risk target. Role supports control testing, process analysis, data validation, documentation, issue identification and continuous improvement. The posting lists bachelor's degrees including Business Administration and related analytical fields and does not state a years-of-experience minimum. Fit is held below 8 because banking risk/testing is new domain experience for Ezekiel.",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-elevance-credentialing-analyst-jr205055",
+      "market": "DFW",
+      "tier": 2,
+      "company": "Elevance Health / CareBridge",
+      "role": "Credentialing Analyst",
+      "location": "Grand Prairie, TX · virtual eligible near office",
+      "pay": "Not posted in retrieved listing",
+      "fit": 6.8,
+      "resume": "R1",
+      "url": "https://careers.elevancehealth.com/credentialing-analyst-carebridge/job/EC4A8337F6A71C8DFBFEDDC51214EA2D",
+      "verification": "Official direct · posted Sep 10 · closes Sep 24",
+      "checked": "2026-09-12",
+      "note": "Healthcare-analyst stretch with strong relevance to provider operations, audits, documentation quality, report/query research and issue resolution. It is virtual eligible for candidates near the Grand Prairie office. The material gap is the minimum 3 years in a managed-care environment (or equivalent combination of education/experience), so this is second-wave rather than a top pick.",
+      "localPriority": true,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screened_out": [
+    {
+      "company": "Bank of America",
+      "role": "Client Quantitative Analyst I",
+      "reason": "Requires 2+ years analytics/quantitative experience plus SQL/Python and multi-platform data manipulation; too technical for the current target profile."
+    },
+    {
+      "company": "Bank of America",
+      "role": "Quantitative Operations Associate",
+      "reason": "Requires a STEM master's degree, SQL, VBA, discrete-event simulation and optimization modeling."
+    },
+    {
+      "company": "HCSC",
+      "role": "Operations Performance Management Specialist",
+      "reason": "Requires bachelor's plus 3 years of systems/application/database experience and GRC solution experience, with SQL/Python/BI depth preferred."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst, Digital Analytics",
+      "reason": "Requires 3 years of analytical-field experience plus digital analytics tools such as Adobe Analytics, Google Analytics or Quantum Metric."
+    },
+    {
+      "company": "Bank of America",
+      "role": "Operations Project Consultant - Enterprise Correspondence Operations - Bilingual Spanish",
+      "reason": "Requires bilingual Spanish plus defect-management, XML analytics, SQL/testing tooling and relevant product knowledge."
+    }
+  ]
+}
