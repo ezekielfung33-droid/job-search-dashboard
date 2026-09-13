@@ -1,4 +1,4 @@
-# Ezekiel Job Search Dashboard — September 12, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 13, 2026 Refresh
 
 Live dashboard history retained:
 - `jobs.json`
@@ -7,19 +7,20 @@ Live dashboard history retained:
 - `jobs_sep10.json`
 - `jobs_sep11.json`
 - `jobs_sep12.json`
+- `jobs_sep13.json`
 
-The dashboard merges all six data files by stable job ID. Existing browser application statuses, notes, and action timestamps continue to use the same localStorage keys, so the Sep. 12 refresh does not discard prior tracking.
+The dashboard continues to merge job data by stable job ID. Existing browser application statuses, notes, and action timestamps retain the same localStorage keys so historical tracking is preserved.
 
-## September 12 priority additions
+## September 13 priority additions
 
-1. Bank of America — GFC Investigations Analyst — Fort Worth / Dallas / Addison / Plano — fit 7.9/10
-2. Bank of America — Risk Process Analyst — Plano / Fort Worth — fit 7.5/10
-3. Elevance Health / CareBridge — Credentialing Analyst — Grand Prairie / virtual eligible near office — fit 6.8/10
+1. UnitedHealth Group / Optum — Intake Operations Support Specialist — National Remote / Dallas — fit 8.8/10
+2. UnitedHealth Group / Optum — Associate Specialty Implementation Manager — National Remote / Dallas — fit 6.9/10
+3. UnitedHealth Group / Optum — Hospital Bill Audit Eligibility and Research Associate — National Remote / Dallas — fit 6.3/10
 
-Fit scores remain deliberately conservative and use Ezekiel's current Healthcare Management degree, UTSW patient-access experience, operations/inventory exposure, budgeting experience, and listed Microsoft Office skills.
+Fit scores remain deliberately conservative against Ezekiel's Healthcare Management degree and UTSW patient-access/operations background. Roles were excluded when hard experience, degree, technical, or current-listing requirements were not met.
 
 ## Screened out
 
-Today's exclusions include Bank of America Client Quantitative Analyst I (2+ years analytics plus SQL/Python), Bank of America Quantitative Operations Associate (STEM master's plus simulation/optimization), HCSC Operations Performance Management Specialist (3+ years systems/GRC depth), American Airlines Digital Analytics (3 years plus digital analytics platforms), and Bank of America Operations Project Consultant (bilingual Spanish plus specialized testing/XML/SQL requirements).
+Today's exclusions include American Airlines Customer Experience Program Management and Customer Experience Programs (4+ years required), American Airlines Revenue Management Development (quantitative degree/tooling mismatch), Caterpillar's entry finance program (finance-major/credit requirements), McKesson Implementation Analyst (roughly 4+ years implementation/onboarding experience), and an Optum procurement analyst posting whose direct employer page could not be verified as open.
 
-Last refreshed: September 12, 2026.
+Last refreshed: September 13, 2026.
