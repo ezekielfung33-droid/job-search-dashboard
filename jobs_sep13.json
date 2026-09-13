@@ -1,0 +1,109 @@
+{
+  "updated": "2026-09-13",
+  "jobs": [
+    {
+      "id": "remote-uhg-intake-ops-support-2382407",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "UnitedHealth Group / Optum",
+      "role": "Intake Operations Support Specialist",
+      "location": "National Remote · primary listing Dallas, TX",
+      "pay": "$16-$29/hr",
+      "fit": 8.8,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/intake-operations-support-specialist/34088/100146256720",
+      "verification": "Official direct · national remote · posted Sep 3",
+      "checked": "2026-09-13",
+      "note": "Best new match today. The role directly supports Patient Access/Intake with referrals, document management, work queues, routine follow-up, reporting and spreadsheets. Hard requirements are HS/GED plus 1+ year in admin support, customer service, medical office or healthcare operations and data-entry experience; patient-access/healthcare experience is preferred. This maps unusually closely to Ezekiel's UTSW patient-access background without requiring a specialized analyst toolkit.",
+      "localPriority": false,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "remote-uhg-assoc-specialty-implementation-2385783",
+      "market": "Remote / Nationwide",
+      "tier": 2,
+      "company": "UnitedHealth Group / Optum",
+      "role": "Associate Specialty Implementation Manager",
+      "location": "National Remote · primary listing Dallas, TX",
+      "pay": "$29-$52/hr",
+      "fit": 6.9,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/associate-specialty-implementation-manager/34088/100439398480",
+      "verification": "Official direct · national remote · posted Sep 10",
+      "checked": "2026-09-13",
+      "note": "Good healthcare project/implementation stretch with unusually strong pay. Requires 1+ year of PBM or Healthcare Management experience and 1+ year in client management or client implementation, plus basic Excel/PowerPoint. Ezekiel's Healthcare Management background helps materially, but direct client-implementation experience is the main uncertainty, so this is deliberately below top-tier fit.",
+      "localPriority": false,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "remote-uhg-hba-eligibility-research-2383798",
+      "market": "Remote / Nationwide",
+      "tier": 2,
+      "company": "UnitedHealth Group / Optum",
+      "role": "Hospital Bill Audit Eligibility and Research Associate",
+      "location": "National Remote · primary listing Dallas, TX",
+      "pay": "$18-$32/hr",
+      "fit": 6.3,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/hospital-bill-audit-eligibility-and-research-associate/34088/100395846768",
+      "verification": "Official direct · national remote · posted Sep 9",
+      "checked": "2026-09-13",
+      "note": "Relevant healthcare revenue-cycle/research stretch: claims review, contract research, payment accuracy, HIPAA and Excel. However, the posting requires 1+ year of medical claims processing/billing/collections or contract analysis plus understanding of hospital payment methodologies. Keep as second-wave unless Ezekiel can substantiate those duties from patient-access work.",
+      "localPriority": false,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screened_out": [
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Customer Experience Program Management",
+      "reason": "Requires 4+ years of relevant work experience; too senior for the current target profile despite strong project-management overlap."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Customer Experience Programs",
+      "reason": "Requires 4+ years of relevant work experience; excluded rather than inflating fit based on transferable coordination skills."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Revenue Management Development",
+      "reason": "Minimum expects a quantitatively oriented degree/equivalent and the work centers on SQL/Python/R, automated pipelines and large datasets; current profile is not a realistic match."
+    },
+    {
+      "company": "Caterpillar",
+      "role": "2027 Entry Level Finance Analyst - Finance Leadership Development Program",
+      "reason": "Requires Finance/Economics or another Business/Technology major with at least 18 finance credit hours and a 3.0 GPA; Healthcare Management alone does not establish eligibility."
+    },
+    {
+      "company": "McKesson",
+      "role": "Implementation Analyst",
+      "reason": "Current postings require about 4+ years of implementation/training or employee-benefits/client-onboarding experience, so the title is more senior than it first appears."
+    },
+    {
+      "company": "UnitedHealth Group / Optum",
+      "role": "Associate Source Procurement Analyst",
+      "reason": "Search index showed a recent posting, but the direct employer page returned 404 during verification; excluded as not reliably open."
+    }
+  ]
+}
