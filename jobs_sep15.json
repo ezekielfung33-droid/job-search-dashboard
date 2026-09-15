@@ -1,0 +1,109 @@
+{
+  "updated": "2026-09-15",
+  "jobs": [
+    {
+      "id": "dfw-staffpad-entry-level-implementation-analyst-dallas",
+      "market": "DFW",
+      "tier": 1,
+      "company": "The Staff Pad",
+      "role": "Entry-Level Implementation Analyst",
+      "location": "Dallas, TX",
+      "pay": "$54K–$55K/yr",
+      "fit": 8.1,
+      "resume": "R2",
+      "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-Business-Systems-Analyst/-in-Dallas,TX",
+      "verification": "Current listing verified Sep 15 · posted within 2 days",
+      "checked": "2026-09-15",
+      "note": "Strong explicit entry-level BA/implementation target. Work includes analyzing client systems and business models, mapping interfaces, translating requirements into project briefs, evaluating solutions, implementation/data migration and cross-functional client work. The cloud/software domain is a real learning gap, so fit is kept near 8 rather than inflated. Third-party listing used because a direct employer/client posting was not reliably surfaced.",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "officialLink": false,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-ask-reverse-logistics-operations-analyst-coppell",
+      "market": "DFW",
+      "tier": 2,
+      "company": "ASK Consulting",
+      "role": "Reverse Logistics Operations Analyst",
+      "location": "Coppell, TX",
+      "pay": "$24–$32/hr",
+      "fit": 7.4,
+      "resume": "R2",
+      "url": "https://www.energyjobline.com/job/reverse-logistics-operations-analyst-cur-1-131040curatelyainet-coppell-31628370",
+      "verification": "Current listing verified Sep 15 · 6-month contract",
+      "checked": "2026-09-15",
+      "note": "Good operations/process-analysis bridge: KPI and forecast tracking, reporting, production/inventory operations, cost/efficiency improvement and account management. The posting asks for 2–3 years related BA/account/project-management experience and advanced Excel. Ezekiel's operations background is relevant, but the Excel/data-reporting requirement and contract structure keep this below top-tier fit.",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "workMode": "On-site",
+      "employmentType": "Contract",
+      "officialLink": false,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "dfw-utd-finance-operations-coordinator-s07206p",
+      "market": "DFW",
+      "tier": 2,
+      "company": "The University of Texas at Dallas",
+      "role": "Finance Operations Coordinator",
+      "location": "Richardson, TX",
+      "pay": "Up to $47,500",
+      "fit": 6.8,
+      "resume": "R2",
+      "url": "https://jobs.utdallas.edu/postings/32526/print_preview",
+      "verification": "Official posting verified Sep 15 · open until filled",
+      "checked": "2026-09-15",
+      "note": "Relevant finance/operations coordinator role covering budgeting, procurement, reconciliations, financial records, compliance, SOPs and travel/expense administration. Minimum is bachelor's plus four years of general office/accounting/business experience or an equivalent combination. Ezekiel has substantial operations/leadership experience, but direct accounting/research-administration depth is limited; score remains conservative. May become hybrid after probation, but candidate must remain in DFW.",
+      "localPriority": true,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screened_out": [
+    {
+      "company": "Freeman",
+      "role": "Enterprise Risk Management Analyst",
+      "reason": "Current listing is attractive but requires a completed bachelor's degree in Risk Management, Finance, Business, Economics or related field. One to three years of risk/insurance/finance/audit/analytics is preferred and advanced Excel/Power BI is expected. Ezekiel's degree is still in progress and the direct ERM toolkit is not established, so it was not added merely on transferable operations experience."
+    },
+    {
+      "company": "UnitedHealth Group / Optum",
+      "role": "Associate Source Procurement Analyst",
+      "reason": "Search index still surfaces the role, but direct employer verification returned 404 again on Sep. 15. Excluded as not reliably open."
+    },
+    {
+      "company": "HCSC",
+      "role": "Government Programs Care Manager Support Specialist I",
+      "reason": "Search result appeared current, but the direct employer page returned 404 during Sep. 15 verification. Excluded rather than adding a potentially closed role."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Customer Experience Program Management",
+      "reason": "Still surfaced in search, but previously screened because the posting requires 4+ years of relevant work experience; not re-added."
+    },
+    {
+      "company": "American Airlines",
+      "role": "Analyst/Sr Analyst, Financial Planning & Analysis",
+      "reason": "Finance/FP&A specialization is materially stronger than the current profile; not added based only on transferable operations skills."
+    },
+    {
+      "company": "Caterpillar",
+      "role": "Aftermarket Inventory Strategy Analyst",
+      "reason": "Posting closes Sep. 15 and is specialized inventory/supply-chain analytics; current profile does not establish the direct inventory-strategy background needed to justify adding it."
+    }
+  ]
+}
