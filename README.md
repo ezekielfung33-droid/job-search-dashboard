@@ -1,4 +1,4 @@
-# Ezekiel Job Search Dashboard — September 17, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 18, 2026 Refresh
 
 Live dashboard history retained:
 - `jobs.json`
@@ -12,19 +12,20 @@ Live dashboard history retained:
 - `jobs_sep15.json`
 - `jobs_sep16.json`
 - `jobs_sep17.json`
+- `jobs_sep18.json`
 
 The dashboard merges job data by stable job ID. Existing browser application statuses, notes, and action timestamps retain the same localStorage keys so historical tracking is preserved.
 
-## September 17 priority additions
+## September 18 priority additions
 
-1. American Heart Association — Project Coordinator, Quality Outcome Research & Analytics (QORA) — Dallas / home-based — fit 8.6/10
-2. Agora Data — Jr. Technical Business Analyst, Internal Applications — Arlington — fit 7.8/10
-3. Army & Air Force Exchange Service (The Exchange) — Business Analyst I, Associate Payments — Dallas — fit 6.6/10
+1. Baylor Scott & White Health — Supply Chain Strategic Data Analyst I — Dallas, hybrid — fit 8.4/10
+2. Pair Team — Credentialing Associate — U.S. remote / Texas eligible — fit 8.2/10
+3. Milestone — Project Analyst, QSF Administration — U.S. remote / Texas eligible — fit 7.2/10
 
 Fit scores remain deliberately conservative. Today's search prioritized DFW Business Analyst, operations/process, project, finance, risk/compliance and healthcare/corporate roles, plus genuinely Texas-eligible remote opportunities. Jobs already represented in prior dated files were not re-added under new IDs.
 
 ## Screened out
 
-Today's exclusions include Axon Implementation Business Analyst II (technical implementation/configuration gap); Natera EDI & Claims Operations Analyst (4+ years revenue cycle plus claims/EDI); Hilton Senior Analyst Project Management (senior/experience threshold); Leeward Risk Analyst and Senior Financial Analyst (past application end dates); Neumo Business Analyst (description is actually senior and court-domain specific); CSAA Business Solutions Analyst III (4+ years BSA); and Providence Senior ERP Applications Analyst.
+Today's exclusions include PowerSchool Business Operations Analyst (2–5 years direct BA/BSA plus enterprise platforms/SDLC); SAIC Program & Business Operations Analyst (3–5+ years plus advanced Excel, Visio and ServiceNow); Centene Business Automation Analyst I (official current posting is Remote-MO, while a Texas-indexed copy indicated no longer accepting applications); Parkland HIM Analyst I (expired); Glazer's Supply Chain Operations Analyst (closed Sep. 16); Leeward Risk Analyst (past application end date); and Tenet Business Insight Analyst III (3+ years plus SQL/Power BI).
 
-Last refreshed: September 17, 2026.
+Last refreshed: September 18, 2026.
