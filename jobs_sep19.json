@@ -1,0 +1,61 @@
+{
+  "refreshDate": "2026-09-19",
+  "jobs": [
+    {
+      "id": "optum-2386869-sr-business-operations-coordinator",
+      "company": "Optum",
+      "role": "Senior Business Operations Coordinator",
+      "market": "Remote / Nationwide",
+      "location": "Dallas, TX / National Remote",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "pay": "$18.00-$32.00/hr",
+      "fit": 8.4,
+      "tier": 1,
+      "resume": "R1",
+      "verification": "Official employer posting",
+      "checked": "2026-09-19",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/senior-business-operations-coordinator/34088/100827912112",
+      "officialLink": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "localPriority": false,
+      "isNew": true,
+      "topPick": true,
+      "defaultStatus": "To Apply",
+      "note": "Strong healthcare-operations bridge despite the Senior title: HS/GED plus 2+ years office experience is the hard experience threshold. Scheduling clinical peer reviews, routing testing/authorizations within compliance turnaround times, provider interaction, Microsoft Office, HIPAA/insurance preferred. National remote and Texas eligible. Posted 9/18/26."
+    },
+    {
+      "id": "optum-2390124-business-process-analyst-cao",
+      "company": "Optum",
+      "role": "Business Process Analyst - CAO Implementation Team",
+      "market": "Remote / Nationwide",
+      "location": "Dallas, TX / National Remote",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "pay": "$29.00-$52.00/hr",
+      "fit": 6.4,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Official employer posting",
+      "checked": "2026-09-19",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/business-process-analyst-cao-implementation-team/34088/100829904144",
+      "officialLink": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "localPriority": false,
+      "isNew": true,
+      "topPick": false,
+      "defaultStatus": "To Apply",
+      "note": "Legitimate but conservative stretch. National remote/Texas eligible; requires 3+ years business process/implementation/operations/healthcare experience and 2+ years implementation, project coordination or client-facing experience, plus requirements documentation and intermediate-advanced Excel. Healthcare background helps, but direct implementation ownership is a material gap. Posted 9/18/26."
+    }
+  ],
+  "screenedOut": [
+    "NTT DATA Business Analyst, Dallas - excluded: requires 3+ years direct BA/process/transformation experience plus 3+ years requirements work.",
+    "American Airlines Analyst/Sr Analyst, Sales AI & Innovation - excluded: requires 3 years similar experience plus hands-on Databricks/Azure/AI engineering stack.",
+    "American Airlines Analyst/Sr Analyst, Financial Planning - excluded: requires previous strategic financial analysis and complex financial-model experience; SQL/Access and modeling expectations make current fit too weak.",
+    "American Airlines Sr Analyst, Aviation Safety Action Program - excluded as clearly senior/specialized aviation-safety role.",
+    "Aledade Project Coordinator - not re-added: posting requires revenue-cycle/claims payment subject-matter knowledge and was already surfaced in the recent search window.",
+    "American Heart Association Project Coordinator - duplicate of Sep. 17 board entry; not assigned a new ID."
+  ]
+}
