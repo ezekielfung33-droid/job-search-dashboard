@@ -1,0 +1,63 @@
+{
+  "refreshDate": "2026-09-20",
+  "jobs": [
+    {
+      "id": "capgemini-526832-associate-data-governance-ba",
+      "company": "Capgemini",
+      "role": "Associate Data Governance Business Analyst",
+      "market": "DFW",
+      "location": "Dallas, TX",
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "pay": "$46,000-$111,000/yr",
+      "fit": 6.8,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Official employer posting",
+      "checked": "2026-09-20",
+      "url": "https://careers.capgemini.com/job/Dallas%2C-TX-Associate-Data-Governance-Business-Analyst-TX-75201/1435942233/",
+      "officialLink": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": true,
+      "defaultStatus": "To Apply",
+      "note": "Best new corporate-analyst target found today, but scored conservatively. Work covers data/process analysis, governance, risk/compliance, requirements capture, process maps, project tracking and responsible AI; Power BI/Tableau/SQL/Python are only nice-to-have. Bachelor's degree and prior internship/co-op/project experience in consulting, technology or data are stated qualifications, so degree-completion timing/direct data-project evidence should be addressed. Posted 9/10/26 and verified live 9/20/26."
+    },
+    {
+      "id": "celestica-141007-project-coordinator",
+      "company": "Celestica",
+      "role": "Project Coordinator",
+      "market": "DFW",
+      "location": "Richardson, TX",
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "pay": "Not listed",
+      "fit": 6.2,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Official employer posting",
+      "checked": "2026-09-20",
+      "url": "https://careers.celestica.com/job/Richardson-Project-Coordinator-TX-75080/1439114633/",
+      "officialLink": true,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": false,
+      "defaultStatus": "To Apply",
+      "note": "Local project/operations bridge with strong Excel/Word/PowerPoint, reporting, procedures, special-project coordination and stakeholder support overlap. However, Celestica lists 4-6 years of relevant experience, so this is a second-wave stretch rather than a high-confidence match. Posting notes the role may be an entry point to the exempt professional path. Posted 9/18/26 and verified live 9/20/26."
+    }
+  ],
+  "screenedOut": [
+    "Staffmark Business Operations Analyst, Plano - excluded: requires 4-7 years related experience plus 5+ years administrative/project-management experience and a completed BA/BS.",
+    "Energy Transfer Analyst - Business Systems, Dallas - excluded as mid-senior and platform-administration/business-systems specialization is too far from the current target profile.",
+    "Dallas ISD Analyst I - Special Revenue Funds - excluded: requires bachelor's degree plus 3+ years directly related experience and specialized federal education-compliance knowledge.",
+    "Qualis1 Senior Business Analyst - Capital Markets / Customer Experience, Richardson - excluded: explicitly senior and asks for more than 10 years experience.",
+    "SmarterDx Support Analyst I - excluded: requires 3-5 years technical support/customer service plus strong technical troubleshooting, CDI or healthcare information-systems experience.",
+    "Centene Business Automation Analyst I - excluded from Texas-remote funnel: current official posting is location-restricted and does not establish Texas eligibility.",
+    "Tenet Business Insight Analyst III - excluded: requires 4+ years and stronger SQL/Power BI/MicroStrategy experience.",
+    "Celestica Production Planning Administrator - not added: primarily production/supply-chain administration and weaker alignment than today's project/analyst targets."
+  ]
+}
