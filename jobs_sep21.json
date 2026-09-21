@@ -1,0 +1,61 @@
+{
+  "refreshDate": "2026-09-21",
+  "jobs": [
+    {
+      "id": "utsw-technology-resilience-analyst-i",
+      "company": "UT Southwestern Medical Center",
+      "role": "Technology Resilience Analyst I",
+      "market": "DFW",
+      "location": "Dallas, TX",
+      "workMode": "Hybrid",
+      "employmentType": "Full-time",
+      "pay": "Not listed",
+      "fit": 7.3,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Current employer-linked posting / LinkedIn",
+      "checked": "2026-09-21",
+      "url": "https://www.linkedin.com/jobs/view/technology-resilience-analyst-i-at-ut-southwestern-medical-center-4459982761",
+      "officialLink": false,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": true,
+      "defaultStatus": "To Apply",
+      "note": "Best new healthcare/corporate analyst bridge found today. Explicitly entry-level and supports business continuity/disaster recovery through risk identification, process documentation, audits, recovery procedures and cross-functional work. Mostly remote with occasional Dallas office requirements. Healthcare-employer familiarity and coordination/operations background transfer well, but direct technology-resilience/DR experience is a gap, so fit remains conservative. Posting dated 9/2/26 and verified current 9/21/26."
+    },
+    {
+      "id": "aafes-business-analyst-i-retail-specialist-202609",
+      "company": "The Exchange (AAFES)",
+      "role": "Business Analyst I",
+      "market": "DFW",
+      "location": "Dallas, TX",
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "pay": "About $55,000/yr (third-party listing)",
+      "fit": 6.5,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Current employer-linked listings",
+      "checked": "2026-09-21",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-i-at-the-exchange-4466349689",
+      "officialLink": false,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": false,
+      "defaultStatus": "To Apply",
+      "note": "True entry-level BA title with data extraction/analysis, reporting and coordination across stores, vendors and HQ. Qualification is 3 years of relevant analysis/evaluation work OR bachelor's plus 1 year; the latter may be arguable through operations/administrative analytical experience, but direct marketing/purchasing/sales analysis is a gap. Kept below 7 rather than treating transferable duties as equivalent experience. Fresh listings verified 9/21/26."
+    }
+  ],
+  "screenedOut": [
+    "Dallas ISD Analyst I - Special Revenue Funds - excluded: posting dated 9/18/26 but requires bachelor's plus 3+ years directly related experience and specialized IDEA/special-education grant compliance knowledge.",
+    "Living Earth Financial Analyst I - not added: attractive 0-2 year FP&A profile, but only third-party evidence was found today and a current official employer posting could not be verified.",
+    "Blackhawk Network Financial Analyst I rotational program - not added: appears entry-level and attractive, but current evidence was third-party/stale and official live status was not sufficiently verified.",
+    "Austin Industries IT Business Analyst I - not added: 0-3 year label, but requires direct IT BA experience translating requirements into functional specifications plus enterprise systems/data-integration knowledge; current evidence was not strong enough to treat as a clean fit.",
+    "The Exchange finance-focused Business Analyst I variant - excluded as a separate posting because it requires 3 years finance/accounting or bachelor's plus 1 year finance/accounting and is materially weaker than the retail-specialist BA opening added today.",
+    "UT Dallas Business Analyst I - excluded: search result explicitly states it is no longer accepting applications."
+  ]
+}
