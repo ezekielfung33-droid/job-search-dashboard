@@ -1,4 +1,4 @@
-# Ezekiel Job Search Dashboard — September 21, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 22, 2026 Refresh
 
 Live dashboard history retained:
 - `jobs.json`
@@ -16,18 +16,19 @@ Live dashboard history retained:
 - `jobs_sep19.json`
 - `jobs_sep20.json`
 - `jobs_sep21.json`
+- `jobs_sep22.json`
 
 The dashboard merges job data by stable job ID. Existing browser application statuses, notes, and action timestamps retain the same localStorage keys so historical tracking is preserved.
 
-## September 21 priority additions
+## September 22 priority additions
 
-1. UT Southwestern Medical Center — Technology Resilience Analyst I — Dallas / mostly remote — fit 7.3/10
-2. The Exchange (AAFES) — Business Analyst I — Dallas — fit 6.5/10
+1. Ally Financial — Associate Analyst - Supplier Management — Lewisville, TX / hybrid — fit 7.9/10
+2. Energy Transfer — Associate Analyst / Analyst - Operations Maintenance Capital FP&A — Dallas, TX / on-site — fit 6.8/10
 
 Fit scores remain deliberately conservative. Today's search prioritized DFW Business Analyst, business operations, operations/process, project, finance, risk/compliance and healthcare/corporate roles, plus genuinely Texas-eligible remote opportunities. Jobs already represented in prior dated files were not re-added under new IDs.
 
 ## Screened out
 
-Today's exclusions include Dallas ISD Analyst I - Special Revenue Funds (3+ years directly related experience plus specialized IDEA grant compliance); Living Earth Financial Analyst I and Blackhawk Network Financial Analyst I because current official live status was not sufficiently verified; Austin Industries IT Business Analyst I because direct IT BA/specification and enterprise-systems experience is a material gap; the finance-focused Exchange Business Analyst I variant because its finance/accounting threshold is a weaker fit; and UT Dallas Business Analyst I because the search result explicitly states it is no longer accepting applications.
+Today's exclusions include Ally Associate Analyst - Dealer Support because the qualifications call for 3+ years in finance/auto finance despite a generic 0+ years minimum; QTS Procurement Operations Analyst because it requires 2+ years of procurement/supply-chain/sourcing experience plus Oracle ERP preference; Citi Loan IQ Jr Analyst because its individual listing showed an anticipated close date of September 9 despite still appearing in search; Rithum PMO & Portfolio Analyst because it requires 2+ years of direct project/PMO/business-operations experience; and senior/specialized BA, risk, BI and systems roles requiring materially deeper domain experience.
 
-Last refreshed: September 21, 2026.
+Last refreshed: September 22, 2026.
