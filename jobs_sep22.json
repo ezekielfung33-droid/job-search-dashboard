@@ -1,0 +1,60 @@
+{
+  "refreshDate": "2026-09-22",
+  "jobs": [
+    {
+      "id": "ally-associate-analyst-supplier-management-lewisville-202609",
+      "company": "Ally Financial",
+      "role": "Associate Analyst - Supplier Management",
+      "market": "DFW",
+      "location": "Lewisville, TX",
+      "workMode": "Hybrid",
+      "employmentType": "Full-time",
+      "pay": "$47,840-$75,000/yr",
+      "fit": 7.9,
+      "tier": 1,
+      "resume": "R2",
+      "verification": "Current employer-linked listings / current search verification",
+      "checked": "2026-09-22",
+      "url": "https://www.indeed.com/q-ally-l-dallas-fort-worth%2C-tx-jobs.html",
+      "officialLink": false,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": true,
+      "defaultStatus": "To Apply",
+      "note": "Strong operations/process/risk bridge. Work includes supplier oversight, process improvement, project execution, performance metrics, business-process testing, compliance controls, reconciliations and vendor coordination. Posting states a generic minimum of 0+ years/HS diploma, although 1+ year managing third-party vendors is listed among desired qualifications. Intermediate Excel and basic SQL/Python/R understanding align with the developing analytics profile. Kept below 8 because direct supplier-management experience is a real gap. Current Lewisville listing verified 9/22/26."
+    },
+    {
+      "id": "energy-transfer-associate-analyst-om-capital-fpa-2610003304",
+      "company": "Energy Transfer",
+      "role": "Associate Analyst / Analyst - Operations Maintenance Capital FP&A",
+      "market": "DFW",
+      "location": "Dallas, TX",
+      "workMode": "On-site",
+      "employmentType": "Full-time",
+      "pay": "Not listed by employer",
+      "fit": 6.8,
+      "tier": 2,
+      "resume": "R2",
+      "verification": "Official Energy Transfer careers posting",
+      "checked": "2026-09-22",
+      "url": "https://energytransfer.referrals.selectminds.com/ETP/jobs/associate-analyst-analyst-operations-maintenance-capital-fp-a-18880",
+      "officialLink": true,
+      "knownPay": false,
+      "salaryPotential70": true,
+      "localPriority": true,
+      "isNew": true,
+      "topPick": false,
+      "defaultStatus": "To Apply",
+      "note": "Genuine entry-level FP&A opening: Associate Analyst band is 0-2 years and bachelor's or equivalent work experience is accepted, with finance/accounting/business degree preferred rather than mandatory. Responsibilities include variance analysis, budgeting/forecasting, KPI dashboards, process improvement and planning. Strong corporate-analyst upside, but direct FP&A/accounting/modeling experience is a substantial gap, so fit is intentionally conservative. Official posting dated 9/8/26 and verified live 9/22/26."
+    }
+  ],
+  "screenedOut": [
+    "Ally Financial Associate Analyst - Dealer Support - excluded: despite a generic 0+ years minimum, the role specifically calls for 3+ years in finance or auto finance and repossession-domain experience; not a clean entry-level fit.",
+    "QTS Procurement Operations Analyst - excluded: official posting remains live but requires 2+ years of relevant procurement, supply-chain or sourcing experience and prefers Oracle ERP/capital-equipment procurement experience.",
+    "Citi Loan IQ Jr Analyst - excluded: Citi search still surfaces the role, but the individual listing showed an anticipated posting close date of September 9, 2026; treated as stale rather than adding it.",
+    "Rithum PMO & Portfolio Analyst - excluded: current remote Dallas listing requires 2+ years of project coordination, PMO, business operations or analyst experience; possible later stretch, but not strong enough for today's conservative board.",
+    "Senior/specialized BA, risk, BI and systems roles requiring several years of direct domain experience were excluded rather than inflating transferable-skill fit."
+  ]
+}
