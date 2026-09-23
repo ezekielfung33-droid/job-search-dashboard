@@ -1,4 +1,4 @@
-# Ezekiel Job Search Dashboard — September 22, 2026 Refresh
+# Ezekiel Job Search Dashboard — September 23, 2026 Refresh
 
 Live dashboard history retained:
 - `jobs.json`
@@ -17,18 +17,18 @@ Live dashboard history retained:
 - `jobs_sep20.json`
 - `jobs_sep21.json`
 - `jobs_sep22.json`
+- `jobs_sep23.json`
 
 The dashboard merges job data by stable job ID. Existing browser application statuses, notes, and action timestamps retain the same localStorage keys so historical tracking is preserved.
 
-## September 22 priority additions
+## September 23 priority addition
 
-1. Ally Financial — Associate Analyst - Supplier Management — Lewisville, TX / hybrid — fit 7.9/10
-2. Energy Transfer — Associate Analyst / Analyst - Operations Maintenance Capital FP&A — Dallas, TX / on-site — fit 6.8/10
+1. Texas Oncology — Virtual Care Project Coordinator — Dallas / Texas remote — fit 8.9/10
 
 Fit scores remain deliberately conservative. Today's search prioritized DFW Business Analyst, business operations, operations/process, project, finance, risk/compliance and healthcare/corporate roles, plus genuinely Texas-eligible remote opportunities. Jobs already represented in prior dated files were not re-added under new IDs.
 
 ## Screened out
 
-Today's exclusions include Ally Associate Analyst - Dealer Support because the qualifications call for 3+ years in finance/auto finance despite a generic 0+ years minimum; QTS Procurement Operations Analyst because it requires 2+ years of procurement/supply-chain/sourcing experience plus Oracle ERP preference; Citi Loan IQ Jr Analyst because its individual listing showed an anticipated close date of September 9 despite still appearing in search; Rithum PMO & Portfolio Analyst because it requires 2+ years of direct project/PMO/business-operations experience; and senior/specialized BA, risk, BI and systems roles requiring materially deeper domain experience.
+Today's exclusions include Texas Oncology's Remote Healthcare Operations Business Analyst because it requires 3–5 years of direct BA/healthcare-transformation experience plus requirements/process-mapping/vendor experience; NTT DATA's Senior IT Business Analyst and Senior Business Systems Analyst because both are explicitly senior and specialized; Texas Health's Tax Analyst II because it requires an Accounting-related degree plus three years relevant experience; Cook Children's HIM Coder Analyst I because it requires specialized ICD/CPT coding knowledge; Texas Health's PACS Application System Analyst II because it requires clinical-imaging systems expertise; and Gainwell's Senior Professional Data Analyst because it is explicitly senior.
 
-Last refreshed: September 22, 2026.
+Last refreshed: September 23, 2026.
