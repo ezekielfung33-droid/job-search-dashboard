@@ -1,0 +1,38 @@
+{
+  "updated": "2026-09-23",
+  "jobs": [
+    {
+      "id": "dfw-texas-oncology-virtual-care-project-coordinator-20260922",
+      "market": "DFW",
+      "tier": 1,
+      "company": "Texas Oncology",
+      "role": "Virtual Care Project Coordinator",
+      "location": "Dallas, TX / Texas remote",
+      "pay": "Not posted",
+      "fit": 8.9,
+      "resume": "R1",
+      "url": "https://oncologyvoicenetwork.com/jobs/virtual-care-project-coordinator",
+      "verification": "Current listing verified Sep 23; posted Sep 22; Texas-only remote",
+      "checked": "2026-09-23",
+      "note": "Excellent healthcare-operations/project target. Under direct supervision, the role combines special projects, research, budget analysis, process improvement, reporting, operational problem-solving, KPI/compliance monitoring and cross-functional coordination. Bachelor's is preferred rather than required; relevant college coursework and Microsoft Office proficiency are required. Texas residency is explicitly required, making the remote eligibility clear.",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": false,
+      "salaryPotential70": false,
+      "officialLink": false,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screenedOut": [
+    "Texas Oncology Remote Healthcare Operations Business Analyst - attractive healthcare/BA duties but requires 3-5 years specifically as a BA in healthcare/digital health/technology transformation or equivalent healthcare leadership, plus requirements/process-mapping/vendor experience; too much direct-domain depth for the current target profile.",
+    "NTT DATA Senior IT Business Analyst - Healthcare Interoperability & Authorization - explicitly senior and seeks deep healthcare interoperability/payer/authorization expertise.",
+    "NTT DATA Senior Business Systems Analyst - Healthcare Claims - explicitly senior and specialized in healthcare claims systems.",
+    "Texas Health Tax Analyst II - requires a bachelor's in Accounting or related field plus 3 years relevant experience; mismatched specialization.",
+    "Cook Children's HIM Coder Analyst I - requires ICD/CPT coding expertise and coding credentials/knowledge; not a realistic general analyst pivot.",
+    "Texas Health Application System Analyst II - PACS - requires enterprise clinical-imaging/PACS systems experience; specialized mismatch.",
+    "Gainwell Senior Professional Data Analyst - explicitly senior and materially beyond the intended entry-level analyst funnel."
+  ]
+}
