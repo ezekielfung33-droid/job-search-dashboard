@@ -1,0 +1,61 @@
+{
+  "updated": "2026-09-24",
+  "jobs": [
+    {
+      "id": "optum-2390179-client-support-specialist",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "Optum / UnitedHealth Group",
+      "role": "Client Support Specialist",
+      "location": "Dallas, TX + National Remote",
+      "pay": "$20.00-$36.00/hr",
+      "fit": 8.6,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/client-support-specialist/34088/101039688992",
+      "verification": "Official UHG listing live Sep 24; posted Sep 23; National Remote",
+      "checked": "2026-09-24",
+      "note": "Strong healthcare-operations bridge: care coordination, provider relations, documentation quality control, tracking/closing requests, reporting, process correction and continuous improvement. Requires HS/GED plus 2+ years analyzing/solving customer problems and Microsoft Office; healthcare experience is preferred, not required. The direct healthcare/patient-access background is unusually relevant, although this is more operations/client support than a pure analyst role.",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "optum-2389631-senior-clinical-administrative-coordinator",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "Optum / UnitedHealth Group",
+      "role": "Senior Clinical Administrative Coordinator",
+      "location": "Dallas, TX + National Remote",
+      "pay": "$20.00-$36.00/hr",
+      "fit": 8.3,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/senior-clinical-administrative-coordinator/34088/101048992848",
+      "verification": "Official UHG listing live Sep 24; posted Sep 23; National Remote",
+      "checked": "2026-09-24",
+      "note": "Despite the Senior title, the actual minimum is only HS/GED plus 1+ year of customer service. Work includes benefits/eligibility, billing, authorizations, healthcare-claims research, provider/member issue resolution and accuracy/quality metrics. Very realistic healthcare-operations target, but less analytical/project-oriented than the primary analyst funnel, so the fit is capped at 8.3.",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screenedOut": [
+    "Optum Accounts Receivable Specialist (2373481) - current National Remote posting, but requires 3+ years of major medical insurance collections, 1+ year Medicare/Medicare Advantage, and advanced healthcare revenue-cycle expertise; too specialized.",
+    "Citi Syndicated Loan Analyst (26990928) - Irving hybrid and superficially entry-level, but the official posting lists an anticipated Sep 18 close date; excluded as stale/closed-risk rather than padding the board.",
+    "Citi Loan Documentation Analyst (26984120) - 0-2 years and Irving eligible, but the posting is from Aug 25 and is a specialized loan-processing role; not strong enough to add over fresher, better-aligned targets.",
+    "Citi In-Business Risk 1LOD Lead Analyst (26993689) - lead-level risk role with $114,720-$172,080 range; clearly beyond the entry-level target profile.",
+    "Citi IT Business Sr Analyst / Technology Product Management Lead Analyst - intermediate/senior technology roles with material direct-domain requirements; mismatched.",
+    "Optum Outreach Coordinator (2384356) - search result surfaced it, but direct official-page verification returned 404 today; excluded as closed/unverifiable."
+  ]
+}
