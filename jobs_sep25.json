@@ -1,0 +1,61 @@
+{
+  "updated": "2026-09-25",
+  "jobs": [
+    {
+      "id": "optum-2388932-claims-representative",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "Optum / UnitedHealth Group",
+      "role": "Claims Representative / Insight Analyst Assistant",
+      "location": "Dallas, TX + National Remote",
+      "pay": "$18.00-$32.00/hr",
+      "fit": 9.0,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/claims-representative/34088/101102726592",
+      "verification": "Official UHG listing live Sep 25; posted Sep 24; National Remote",
+      "checked": "2026-09-25",
+      "note": "Best new fit today. The role manages medical-record case workflows, turnaround times, provider communication and PHI/HIPAA compliance. Minimums are HS/GED, 1+ year customer service, and basic Word/Excel/Outlook; healthcare or claims experience is preferred rather than required. Ezekiel's current UTSW patient-access work, insurance verification, HIPAA, discrepancy resolution and stakeholder coordination map directly. This is more healthcare operations/claims than a pure BA role, so the score is strong but not inflated beyond 9.0.",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "localPriority": true,
+      "topPick": true,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": false,
+      "officialLink": true,
+      "texasEligibleRemote": true
+    },
+    {
+      "id": "optum-2387097-arbitration-claims-specialist",
+      "market": "Remote / Nationwide",
+      "tier": 1,
+      "company": "UnitedHealthcare / UnitedHealth Group",
+      "role": "Arbitration Claims Specialist",
+      "location": "Dallas, TX + National Remote",
+      "pay": "$24.00-$43.00/hr",
+      "fit": 7.3,
+      "resume": "R1",
+      "url": "https://careers.unitedhealthgroup.com/job/dallas/arbitration-claims-specialist/34088/101096340384",
+      "verification": "Official UHG listing live Sep 25; posted Sep 24; National Remote",
+      "checked": "2026-09-25",
+      "note": "Worth a stretch application because it combines claims/EOB analysis, written case summaries, HIPAA compliance, issue resolution and a regulated healthcare workflow. The hard gaps are meaningful: it asks for 1+ year interpreting claims/EOB data and 1+ year preparing summaries/reports/briefs in a regulated, compliance-driven or legal-adjacent environment. Ezekiel has healthcare/HIPAA/documentation overlap but not clear direct claims adjudication or arbitration experience, so fit is held to 7.3.",
+      "workMode": "Remote",
+      "employmentType": "Full-time",
+      "localPriority": true,
+      "topPick": false,
+      "isNew": true,
+      "knownPay": true,
+      "salaryPotential70": true,
+      "officialLink": true,
+      "texasEligibleRemote": true
+    }
+  ],
+  "screenedOut": [
+    "Federal Reserve Bank of Dallas Enterprise Risk Management Analyst - fresh Dallas posting, but requires a bachelor's in Accounting/Finance/Audit or related field plus three years of relevant organizational-risk, management-testing or audit-testing experience; materially beyond Ezekiel's direct risk background.",
+    "United Texas Bank KYC Compliance Analyst - fresh Dallas role and Texas-eligible hybrid/remote, but requires at least two years in a similar KYC/compliance role, banking-regulation familiarity and compliance-management tools; direct-domain gap is too large.",
+    "Optum Accounts Receivable Billing Clerk (2378801) - National Remote and posted Sep 24, but requires two years healthcare accounts receivable plus two years insurance billing; Ezekiel's patient-access/insurance verification experience does not establish those billing thresholds.",
+    "VMG Health Project Coordinator, Grants - still surfaced today but originally posted Aug 19 and requires 1+ year project coordination/operations/professional-services experience; excluded as older and weaker than fresher targets.",
+    "American Heart Association Project Coordinator - current and relevant, but already represented in the Sep 17 historical job-board data; not duplicated under a new ID.",
+    "Optum Business Process Analyst - CAO Implementation Team - already screened/represented in prior refresh history and requires deeper implementation/process experience; not duplicated."
+  ]
+}
